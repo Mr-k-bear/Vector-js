@@ -10,3 +10,18 @@ This library supports the addition, subtraction, multiplication and division, do
 ## Create a Vector
 
 Use ```vector ()``` to create a vector that automatically identifies the number of dimensions.
+This will return the instantiated vector.
+
+```javascript
+let vec2 = Vector(1);		// Vec2(1, 1)
+let vec3 = Vector(1,2,3);	// Vec3(1, 2, 3)
+let vec4 = Vector(1,2,3,4);	// Vec4(1, 2, 3, 4)
+```
+
+Of course, you can also use ```new``` to create it manually.
+
+```javascript
+let vec2 = new Vector.Vec2(1);	// Vec2(1, 1)
+let vec3 = new Vector.Vec3(1);	// Vec3(1, 0, 0)
+let vec4 = new Vector.Vec4(1,2);// Vec4(1, 2, 0, 0)
+```
